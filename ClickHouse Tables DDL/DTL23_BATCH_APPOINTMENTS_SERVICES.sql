@@ -1,0 +1,14 @@
+-- `default`.DTL23_BATCH_APPOINTMENTS_SERVICES definition
+
+CREATE TABLE default.DTL23_BATCH_APPOINTMENTS_SERVICES
+(
+
+    `ID` UInt16,
+
+    `NAME` String,
+
+    `CREATE_DATETIME` DateTime
+)
+ENGINE = ReplacingMergeTree(CREATE_DATETIME)
+ORDER BY ID
+SETTINGS index_granularity = 8192;

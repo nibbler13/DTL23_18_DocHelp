@@ -1,0 +1,45 @@
+.dt-buttons {
+    margin-bottom: 30px;
+}
+
+.filter-data {
+    width: 100%;
+}
+
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.analysis-form .form-label {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.standard-name {
+    cursor: pointer;
+}
+
+.bg-success-subtle {
+    background: #d1e7dd !important;
+    box-shadow: none !important;
+}
+
+.bg-body-secondary {
+    background: #d9d9d9 !important;
+    box-shadow: none !important;
+}
+
+.bg-success {
+    background: #adf7b6 !important;
+    box-shadow: none !important;
+}
+
+.bg-info {
+    background: #ffee93 !important;
+    box-shadow: none !important;
+}
+
+.bg-danger {
+    background: #ffc09f !important;
+    box-shadow: none !important;
+}
